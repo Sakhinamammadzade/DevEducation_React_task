@@ -1,0 +1,90 @@
+.shoppages{
+    .head-category {
+        text-align: center;
+        position: relative;
+        margin-top: 20px;
+
+        span {
+            color: #F3F3F3;
+            font-size: 6rem;
+            opacity: 0.9;
+            font-family: 'Special Elite', cursive;
+        }
+
+        h1 {
+            position: absolute;
+            top: 25%;
+            left: 35%;
+            font-weight: 700;
+            font-size: 40px;
+        }
+    }
+
+    .card-img {
+        position: relative;
+        overflow: hidden;
+        margin-top: 20px;
+
+        .txt {
+            position: absolute;
+            top: 74%;
+            left: 2%;
+            background-color: #fff;
+            padding: 18px 15px;
+            width: 95%;
+            transition: .5s ease;
+
+            &:hover {
+                background-color: #F62F59;
+
+                h5,
+                i {
+                    color: #F3F3F3;
+                }
+
+            }
+
+            .card-one {
+                display: block;
+            }
+
+            .fitness {
+                text-align: center;
+
+            }
+
+            .right-arrow {
+                margin-top: 10px;
+            }
+
+            h5 {
+                font-size: 18px;
+                font-weight: 700;
+                color: rgba(0, 0, 0, 0.829);
+                width: 80%;
+            }
+
+            i {
+                padding-top: 5px;
+                font-size: 15px;
+            }
+        }
+        .txt-one{
+            padding:25px 15px;
+            .right-arrow{
+                margin-top: 0%;
+            }
+        }
+
+        img {
+            width: 100%;
+            transition: .5s ease;
+        }
+
+        &:hover {
+            img {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
